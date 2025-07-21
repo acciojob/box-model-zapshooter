@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 300px; /* Specific width as per requirements */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px; /* Rounded border */
+    background-color: #e0e0e0;
+    text-align: center; /* Centers the inline blocks */
+}
+
+.red, .green, .yellow {
+    width: 80px; /* Specific size for circles */
+    height: 80px;
+    border-radius: 50%; /* Makes them circles */
+    display: inline-block; /* Displayed inline inside container */
+    margin: 0 10px; /* Spacing between blocks */
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
